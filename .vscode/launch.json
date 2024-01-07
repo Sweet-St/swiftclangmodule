@@ -1,0 +1,76 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swiftclangmodule}",
+            "name": "Debug swiftclangmodule",
+            "program": "${workspaceFolder:swiftclangmodule}\\.build\\debug\\swiftclangmodule.exe",
+            "preLaunchTask": "swift: Build Debug swiftclangmodule"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swiftclangmodule}",
+            "name": "Release swiftclangmodule",
+            "program": "${workspaceFolder:swiftclangmodule}\\.build\\release\\swiftclangmodule.exe",
+            "preLaunchTask": "swift: Build Release swiftclangmodule"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swiftclangmodule}",
+            "name": "Debug swifttest",
+            "program": "${workspaceFolder:swiftclangmodule}\\.build\\debug\\swifttest.exe",
+            "preLaunchTask": "swift: Build Debug swifttest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swiftclangmodule}",
+            "name": "Release swifttest",
+            "program": "${workspaceFolder:swiftclangmodule}\\.build\\release\\swifttest.exe",
+            "preLaunchTask": "swift: Build Release swifttest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swiftclangmodule}",
+            "name": "Debug SwiftTest",
+            "program": "${workspaceFolder:swiftclangmodule}\\.build\\debug\\SwiftTest.exe",
+            "preLaunchTask": "swift: Build Debug SwiftTest"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swiftclangmodule}",
+            "name": "Release SwiftTest",
+            "program": "${workspaceFolder:swiftclangmodule}\\.build\\release\\SwiftTest.exe",
+            "preLaunchTask": "swift: Build Release SwiftTest"
+        }
+    ]
+}
